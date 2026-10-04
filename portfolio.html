@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio &amp; Projects | Mr. Iddy Hamis Maulid</title>
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">IDDY<span>.DEV</span></a>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">&#9776;</button>
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+  <li><a href="index.html" class="nav-link">Home &amp; About</a></li>
+  <li><a href="portfolio.html" class="nav-link">Portfolio &amp; Skills</a></li>
+  <li><a href="courses.html" class="nav-link">Courses</a></li>
+  <li><a href="e-books.html" class="nav-link">E-Books</a></li>
+  <li><a href="contact.html" class="nav-link">Certificates &amp; Contact</a></li>
+</ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECTION 1: HEADER & CORE SKILLS -->
+    <section class="section portfolio-header">
+      <div class="container">
+        <div class="badge">Verified Technical Stack</div>
+        <h1 class="section-heading" style="font-size: 2.8rem; margin-top: 1rem;">
+          Expertise, Tools &amp; <span class="text-gradient">Featured Work</span>
+        </h1>
+        <p>
+          Bridging language pedagogy with practical artificial intelligence, Python data structures, graphic design, and modern front-end web engineering.
+        </p>
+
+        <!-- SKILLS CATEGORIES BASED ON CERTIFICATES -->
+        <div class="skills-container">
+          <!-- Card 1: AI & Data -->
+          <div class="skill-category-card">
+            <h3>&#9881; AI &amp; Python Science</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Python Basics</span>
+              <span class="skill-tag">NumPy Arrays</span>
+              <span class="skill-tag">DataCamp Analytics</span>
+              <span class="skill-tag">AI Agent Architecture</span>
+              <span class="skill-tag">NotebookLM Pro</span>
+              <span class="skill-tag">ALX AI Career Essentials</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Design & Media -->
+          <div class="skill-category-card">
+            <h3>&#127912; Graphics &amp; Media</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Adobe Photoshop (Advanced)</span>
+              <span class="skill-tag">Canva Design Essentials</span>
+              <span class="skill-tag">AI Video &amp; Image Editing</span>
+              <span class="skill-tag">Marketing Video Production</span>
+              <span class="skill-tag">Visual Branding</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Web & Office -->
+          <div class="skill-category-card">
+            <h3>&#60;&#47;&#62; Web &amp; Productivity</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5 / Modern Semantics</span>
+              <span class="skill-tag">CSS3 (Grid &amp; Flexbox)</span>
+              <span class="skill-tag">Vanilla JavaScript (ES6+)</span>
+              <span class="skill-tag">Responsive UI/UX</span>
+              <span class="skill-tag">MS Word, Excel, PowerPoint 365</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Languages & Education -->
+          <div class="skill-category-card">
+            <h3>&#128218; Education &amp; Leadership</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">English Language Teaching</span>
+              <span class="skill-tag">Kiswahili Language Mastery</span>
+              <span class="skill-tag">UNESCO / UDSM Certified</span>
+              <span class="skill-tag">Curriculum Design</span>
+              <span class="skill-tag">Resource Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: PROJECTS SHOWCASE WITH FILTER -->
+    <section class="section" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-color);">
+      <div class="container">
+        <div style="text-align: center;">
+          <div class="badge">Portfolio</div>
+          <h2 class="section-heading">Completed Projects &amp; Implementations</h2>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-wrapper">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ai">AI &amp; Python</button>
+          <button class="filter-btn" data-filter="design">Design &amp; Media</button>
+          <button class="filter-btn" data-filter="web">Web &amp; Education</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- Project 1: AI Agents (Analytics Vidhya) -->
+          <article class="project-card" data-category="ai">
+            <div class="project-header-bar"></div>
+            <div class="project-body">
+              <span class="project-tag">AI Engineering</span>
+              <h3 class="project-title">Autonomous AI Agent Workflows</h3>
+              <p class="project-desc">
+                Designed intelligent task-execution agents using prompt workflows and NotebookLM knowledge synthesis to automate document analysis and structured research queries.
+              </p>
+              <div class="project-stack">
+                <span>AI Agents</span>
+                <span>NotebookLM</span>
+                <span>Prompt Flow</span>
+              </div>
+              <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20am%20interested%20in%20your%20AI%20Agent%20solutions." target="_blank" class="project-cta">Discuss Project &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project 2: Python Data Analysis (DataCamp / Analytics Vidhya) -->
+          <article class="project-card" data-category="ai">
+            <div class="project-header-bar"></div>
+            <div class="project-body">
+              <span class="project-tag">Data Science</span>
+              <h3 class="project-title">Python Analytics &amp; Array Manipulation</h3>
+              <p class="project-desc">
+                Numerical data computation and exploratory data analysis using Python data types, multi-dimensional NumPy arrays, statistical correlations, and data cleaning routines.
+              </p>
+              <div class="project-stack">
+                <span>Python</span>
+                <span>NumPy</span>
+                <span>Data Analysis</span>
+              </div>
+              <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20tell%20me%20more%20about%20your%20Python%20data%20analysis%20work." target="_blank" class="project-cta">Discuss Project &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project 3: Photoshop & Canva Design Suite -->
+          <article class="project-card" data-category="design">
+            <div class="project-header-bar"></div>
+            <div class="project-body">
+              <span class="project-tag">Graphic Design</span>
+              <h3 class="project-title">Brand Identity &amp; Digital Visual Assets</h3>
+              <p class="project-desc">
+                High-resolution creative branding, promotional collateral, social media banners, and typography hierarchy developed with Adobe Photoshop and Canva Design Suite.
+              </p>
+              <div class="project-stack">
+                <span>Adobe Photoshop</span>
+                <span>Canva</span>
+                <span>Visual Identity</span>
+              </div>
+              <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20need%20graphic%20design%20and%20branding%20services." target="_blank" class="project-cta">Discuss Project &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project 4: AI Video & Marketing Production (Udemy) -->
+          <article class="project-card" data-category="design ai">
+            <div class="project-header-bar"></div>
+            <div class="project-body">
+              <span class="project-tag">Media Production</span>
+              <h3 class="project-title">Commercial AI Marketing Video Suite</h3>
+              <p class="project-desc">
+                End-to-end commercial promotional videos created using AI image synthesis, video enhancement tools, pacing, and engaging marketing storytelling for businesses.
+              </p>
+              <div class="project-stack">
+                <span>AI Video Editing</span>
+                <span>Commercial Media</span>
+                <span>Storyboarding</span>
+              </div>
+              <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20want%20to%20create%20a%20marketing%20video%20with%20you." target="_blank" class="project-cta">Discuss Project &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project 5: Interactive Language Learning Module (English & Kiswahili) -->
+          <article class="project-card" data-category="web">
+            <div class="project-header-bar"></div>
+            <div class="project-body">
+              <span class="project-tag">Web &amp; Education</span>
+              <h3 class="project-title">Bilingual Educational Web Application</h3>
+              <p class="project-desc">
+                Interactive web-based grammar exercises and conversational Kiswahili/English modules built with clean HTML5, modern CSS3 styling, and vanilla JavaScript quiz logic.
+              </p>
+              <div class="project-stack">
+                <span>HTML5 / CSS3</span>
+                <span>Vanilla JS</span>
+                <span>English &amp; Kiswahili</span>
+              </div>
+              <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20would%20like%20to%20know%20more%20about%20your%20language%20modules." target="_blank" class="project-cta">Discuss Project &rarr;</a>
+            </div>
+          </article>
+
+          <!-- Project 6: Office 365 Data Automation & Reports -->
+          <article class="project-card" data-category="web">
+            <div class="project-header-bar"></div>
+            <div class="project-body">
+              <span class="project-tag">Productivity &amp; Data</span>
+              <h3 class="project-title">Advanced Excel &amp; Automated Office Worksheets</h3>
+              <p class="project-desc">
+                Comprehensive spreadsheet architecture, automated lookup formulas, data validation models, and executive presentation decks built using Microsoft Office 365.
+              </p>
+              <div class="project-stack">
+                <span>MS Excel</span>
+                <span>PowerPoint 365</span>
+                <span>Data Modeling</span>
+              </div>
+              <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20need%20help%20with%20Excel%20and%20data%20reporting." target="_blank" class="project-cta">Discuss Project &rarr;</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING WHATSAPP BUTTON (Number: 255740090129) -->
+  <a href="https://wa.me/255740090129?text=Hello%20Mr.%20Iddy,%20I%20visited%20your%20website%20and%20would%20like%20to%20connect!" 
+     class="whatsapp-float" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     aria-label="Chat with Mr. Iddy on WhatsApp">
+    &#128172;
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="logo">IDDY<span>.DEV</span></div>
+      <p class="footer-copy">&copy; 2026 Mr. Iddy Hamis Maulid. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js.js"></script>
+</body>
+</html>
